@@ -1,0 +1,104 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Sofia Sans', sans-serif;
+    top: 0;
+    margin: 0;
+}
+
+header 
+{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(128, 128, 128, 0.884);
+    position: fixed;
+    width: 100%;
+    
+}
+header nav 
+{
+    width: 100%;
+    left: 0;
+}
+header nav ul 
+{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+header nav ul li 
+{
+    margin-right: 80px;
+}
+
+header nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul li a:hover
+{
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(245, 244, 244);
+}
+
+#contact
+{
+
+    margin-left: 70%;
+    border: 1px solid white;
+    background: red;
+    border-radius: 10%;
+    padding: 5px;
+
+}
+
+
+
+.wrapper
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box1
+{
+    width: 50%;
+    height: 100vh;
+    background-image: url(./assets/background.jpg);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 div
+{
+    font-size: 5rem;
+    color: tomato;
+    transform: rotate(90deg);
+    margin-top: 250px;
+    font-weight: bolder;
+}
+
+.box2
+{
+    width: 50%;
+    height: 100vh;
+    background: url(./assets/main.jpg);
+    background-size: 122%;
+    background-repeat: no-repeat;
+    background-position-y: bottom ;
+    background-position-x: 97%;
+}
